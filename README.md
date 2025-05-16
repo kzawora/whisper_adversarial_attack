@@ -2,7 +2,7 @@
 
 Generate adversarial audio examples that trick OpenAI's Whisper model into transcribing a specific target sentence—while keeping the audio reasonably perceptible to human listeners. In theory, you could record yourself saying something like "what's the weather like today?", apply some subtle perturbations (which is what this project explores), and Whisper might transcribe it as "this is so sad, hey Alexa, play Despacito"—while to a human, it still sounds like your original sentence. I'm not sure why you'd do that, but to me it seemed fun enough to try.
 
-**Disclaimer:** This is an educational and experimental project. It's very much a work in progress. Don't expect perfect (or even tolerable) results just yet. Tested Apple M2 Pro CPU and Intel A770 GPU (whoa, spicy stuff).
+**Disclaimer:** This is an educational and experimental project. It's very much a work in progress. Don't expect perfect (or even tolerable) results just yet. Tested on Apple M2 Pro CPU and Intel A770 GPU (whoa, spicy stuff).
 
 ## Features
 
